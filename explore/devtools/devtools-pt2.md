@@ -1,0 +1,3 @@
+# Answers to DevTools Part 2
+1. The problem is that the data types of `num1` and `num2` are both strings, so `result` is also going to be a string that concatenates both values of `num1` and `num2`. Thus, with the inputs `num1` being `'1'` and `num2` being `'1'` as well, `result` is `'11'`.
+2. To fix it, I would parse the strings into a number before passing them through the `calculateSum` function. See the image `fix.png`.
